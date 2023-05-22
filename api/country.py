@@ -14,11 +14,15 @@ class handler(BaseHTTPRequestHandler):
 
 
         if countryName:
-            url = f"https://restcountries.com/v3.1/name/{countryName}?fullText=true"
-            res = requests.get(url)
-            data = res.json()
-            capitalName = data[0]["capital"][0]
-            result = f'The capital city of {countryName} is {capitalName}.'  
+            try:
+                url = f"https://restcountries.com/v3.1/name/{countryName}?fullText=true"
+                res = requests.get(url)
+                data = res.json()
+                capitalName = data[0]["capital"][0]
+                result = f'The capital city of {countryName} is {capitalName}.'  
+
+            except: 
+                result = "Invalid country name! OR there is a conniction issue."
 
 
         self.send_response(200)

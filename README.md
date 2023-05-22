@@ -35,12 +35,12 @@
 <br>
 
 #### Country:
-- 
-- 
+- https://capital-finder-opal.vercel.app/api/country?name=italy
+- https://capital-finder-opal.vercel.app/api/country?name=japan
 
 #### Capital: 
--
-- 
+- https://capital-finder-opal.vercel.app/api/capital?capital=amman
+- https://capital-finder-opal.vercel.app/api/capital?capital=paris
 
 <br>
 
