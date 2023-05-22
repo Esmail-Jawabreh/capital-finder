@@ -34,11 +34,13 @@
 ### example urls:
 <br>
 
+#### Country:
+- 
+- 
 
-
-
-
-
+#### Capital: 
+-
+- 
 
 <br>
 
