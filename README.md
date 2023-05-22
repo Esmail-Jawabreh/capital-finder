@@ -27,12 +27,12 @@
     - Refer to demo for details.
 
 <br>
+<br>
 
 ---
 <br>
 
 ### example urls:
-<br>
 
 #### Country:
 - https://capital-finder-opal.vercel.app/api/country?name=italy
