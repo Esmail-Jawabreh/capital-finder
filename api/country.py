@@ -22,7 +22,7 @@ class handler(BaseHTTPRequestHandler):
                 result = f'The capital city of {countryName} is {capitalName}.'  
 
             except: 
-                result = "Invalid country name! OR there is a conniction issue."
+                result = "Invalid country name! OR there is a connection issue."
 
 
         self.send_response(200)
